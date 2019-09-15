@@ -1,0 +1,18 @@
+3.1
+	The type of graph to use would be a Directed Graph where each node would represent a city, 
+	and the edge would represent a connection between two cities A & B where A -> B is a directed edge.
+	Both BFS and DFS can use directed graphs to find a path where BFS would give you the least number of nodes in the path, 
+	and DFS would not necessarily give you the shortest path
+	
+3.2
+	BFS found the result in fewer steps. Given how BFS works, it will always find the route in fewest number of steps/nodes, 
+	however it would take MORE TIME than DFS because DFS outputs the first valid route it finds since it checks one path at a time.
+	
+3.4
+	Using Dijkstra's Algorithm, The time complexity of finding the shortest path would be E(Log(V)). Where E is the number of edges,
+	and V is the number of Nodes. This is because the operations of a priority queue are Log(N) (where N would be the number of nodes), 
+	and since we have to operate on E edges, we would get E*Log(V). Since the complexity is dependent on the structures that Dijkstra's
+	algorith uses, it will NOT change regardless of the number of cities, number of stops, or number of restaurants changing.
+	However it is evident that the overall time it takes the algorithm will increase linearithmically, since the complexity depends on 
+	number of node (cities/restaurants), and edges (connection between cities/restaurants). 
+	

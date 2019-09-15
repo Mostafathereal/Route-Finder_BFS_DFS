@@ -1,0 +1,10 @@
+BFS: Boston to Minneapolis:  Boston, NewYorkCity, Pittsburgh, Columbus, Chicago, Minneapolis
+DFS: Boston to Minneapolis:  Boston, NewYorkCity, Pittsburgh, Columbus, Chicago, StLouis, KansasCity, Minneapolis
+
+City            Item                         Price       Restaurants                
+Boston          NO STOP                      NO STOP	 NO STOP
+NewYorkCity     McChicken - Meal             $3.790000   "McDonalds-Connecticut Turnpike, Darien Service Plaza [southbound pass exit 10]
+Pittsburgh      Double Cheeseburger - Meal   $4.380000   "McDonalds-Aliquippa, PA"
+Columbus        McChicken - Meal             $3.790000   "McDonalds-Canal Winchester, OH"
+Chicago         Double Cheeseburger - Meal   $4.380000   "McDonalds-Addison, IL"
+Minneapolis     McChicken - Meal             $3.790000   "McDonalds-Andover, MN"
